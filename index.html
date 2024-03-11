@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- ------ Css ------- -->
+    <link rel="stylesheet" href="style.css">
+    <!-- ------ RemixIcon ------- -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <!-- ------ BoxIcon ------- -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <title>Portafolio Web</title>
+</head>
+
+<body>
+    <!-- ---------------- Header --------------- -->
+    <header>
+        <a href="#" class="logo">Mi Portafolio<span>.</span></a>
+        <div class="nav-container">
+            <ul class="navbar">
+                <li class="nav-link active-link"><a href="#profile">Inicio</a></li>
+                <li class="nav-link"><a href="#about">Sobre mi</a></li>
+                <li class="nav-link"><a href="#skills">Experiencia</a></li>
+                <li class="nav-link"><a href="#projects">Proyectos</a></li>
+                <li class="nav-link"><a href="#contact">Contácteme</a></li>
+
+            </ul>  
+            <div class="nav-button">
+                <i class="bx bx-moon change-theme" id="theme-button"></i>
+                <a href="#"><i class="bx bx-menu" id="menu-icon"></i></a>
+            </div>
+        </div>
+         
+         
+         
+    </header>
+    <!-- ---------------- Profile Section --------------- -->
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="assets/hola.png" class="profile-pic">
+        </div>
+
+        <div class="section__text">
+            <p class="section__text__p1">Hola, soy</p>
+            <h1 class="title">Helder Michael</h1>
+            <p class="section__text__p2">Desarrollador Front-End</p>
+            <p class="section__text__p3">Con conocimientos en desarrollo y diseño web,</br>Ofrezco los mejores proyectos resultando en un trabajo de calidad.</p>
+
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('/assets/Azul.pdf')">Descarga CV</button>
+                <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact Info</button>
+            </div>
+
+            <div id="socials-container">
+                <a href="https://github.com/Edersincodebloks" target="_blank"><i class="fa-brands fa-github"></i></a>
+                 <a href="https://www.linkedin.com/in/helder-michael-flores-vergara-757850243/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                  
+                </div>
+
+        </div>
+    </section>
+    <!-- ---------------- About Section --------------- -->
+    <section id="about">
+        <p class="section__text__p1">Llegar a más</p>
+        <h1 class="title">Sobre mi</h1>
+
+        <div class="section-container">
+            <div class="about-details-container">
+                <div class="text-container">
+                    <p> Hola soy Helder desarrollador de sistemas web me gusta lo hago como hacer aplicaciones web, móviles soy un apasionado por la tecnología y me gusta mas aplicarla en el habito de desarrollo se sistemas web.
+                    </p>
+                </div>
+            </div>
+
+            <div class="section__pic-container">
+                <img src="assets/73.webp" class="about-pic">
+            </div>
+        </div>
+        <img src="assets/arrow.png" class="arrow">
+        </div>
+    </section>
+    <!-- ---------------- Skills Section --------------- -->
+    <section class="skills" id="skills">
+        <p class="section_text_p1">Habilidades Favoritas</p>
+        <h1 class="title skills-text">Mis Habilidades</h1>
+        <div class="skill-content">
+
+            <div class="row">
+                <div class="row-img">
+                    <img src="assets/s1.png" alt="">
+                <P class="raw">HTML</P>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="row-img">
+                    <img src="assets/s2.png" alt="">
+                    <P class="raw">CSS3</P>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="row-img">
+                    <img src="assets/s3.png" alt="">
+                    <P class="raw">JavaScript</P>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="row-img">
+                    <img src="assets/s4.png" alt="">
+                    <P class="raw">React</P>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="row-img">
+                    <img src="assets/s5.png" alt="">
+                    <p class="raw">Tailwind</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ---------------- Project Section --------------- -->
+    <section id="projects">
+        <p class="section_text_p1">Explorar mi resecto</p>
+        <h1 class="Proojects">Proyectos</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+
+                <div class="details-container">
+                    <div>
+                        <img src="assets/Cap.png" class="project-img">
+                    </div>
+                    <h2 class="experience-sun.title project-title">Planetas</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/Edersincodebloks/universal.git'">github<i class="ri-github-line p-icon"></i></button>
+                        <button class="btn btn-color-1" onclick="location.href='https://resilient-valkyrie-5babab.netlify.app'">Demostración<i class="ri-upload-2-line p-icon"></i></button>
+                    </div>
+                </div>
+
+                <div class="details-container">
+                    <div>
+                        <img src="assets/mar.png" class="project-img">
+                    </div>
+                    <h2 class="experience-sun.title project-title">Clima</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/Edersincodebloks/temporal.git'">github<i class="ri-github-line p-icon"></i></button>
+                        <button class="btn btn-color-1" onclick="location.href='https://serene-pony-8dfd70.netlify.app'">Demostración<i class="ri-upload-2-line p-icon"></i></button>
+                    </div>
+                </div>
+
+                <div class="details-container">
+                    <div>
+                        <img src="assets/row.png" class="project-img">
+                    </div>
+                    <h2 class="experience-sun.title project-title">Portafolio</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/Edersincodebloks/entrega3.1.git'">github<i class="ri-github-line p-icon"></i></button>
+                        <button class="btn btn-color-1" onclick="location.href='https://snazzy-sherbet-32652d.netlify.app/'">Demostración<i class="ri-upload-2-line p-icon"></i></button>
+                    </div>
+                </div>
+
+
+            </div>
+            <img src="assets/arrow.png" class="arrow">
+
+        </div>
+    </section>
+    <!-- ---------------- Contact Section --------------- -->
+    <section class="contacto" id="contact">
+        <p class="section_text_p1">Ponerse en contacto</p>
+        <h1 class="title">Contácteme</h1>
+
+<form action="https://formsubmit.co/helderflores004@gmail.com" method="POST"
+
+            <div class="input-group">
+
+                <label for="name">Nombre</label>
+                <input type="text" name="name" id="name" placeholder="Nombre">
+
+                <label for="name">Apellidos</label>
+                <input type="text" name="name" id="name" placeholder="Apellidos">
+
+                <label for="phone">Teléfono</label>
+                <input type="tel" name="phone" id="phone" placeholder="Teléfono">
+
+                <label for="name">Correo</label>
+                <input type="email" name="email" id="email" placeholder="Correo">
+
+                <label for="name">Mensaje</label>
+                <textarea name="message" id="message" cols="30" rows="5" placeholder="Mensaje"></textarea>
+                <input class="btn" type="submit" value="Enviar">
+
+                <input type="hidden" name="next" value="http://127.0.0.1:5500/">
+                <input type="hidden" name="_captcha" value="false">
+            </div>
+        </form>     
+
+    </section>
+
+    <!---------------------CopyRight------------------------->
+    <p class="copyright">@_ElderCode Derechos Reservados</p>
+    <!-------------------------Scroll up---------------------->
+    <a href="#profile" class="scrollup" id="scroll-up">
+        <i class="ri-arrow-up-line scrollup__icon"></i>
+    </a>
+
+
+    <!-- ------ CDN FontAwesome ------- -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"></script>
+    <!-- ------ JavaScript ------- -->
+    <script src="script.js"></script>
+     
+</body>
+
+</html>
